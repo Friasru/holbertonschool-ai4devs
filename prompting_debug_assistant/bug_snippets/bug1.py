@@ -5,4 +5,14 @@ def last_n_items(items, n):
         result.append(items[i])
     return result
 
-print(last_n_items([1, 2, 3, 4, 5], 7))
+
+def main():
+    """Run a few sample calls to last_n_items"""
+    numbers = [1, 2, 3, 4, 5]
+    print(last_n_items(numbers, 2))
+    print(last_n_items(numbers, 5))
+    print(last_n_items(numbers, 7))
+
+
+if __name__ == "__main__":
+    main()
